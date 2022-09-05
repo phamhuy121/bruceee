@@ -1,0 +1,26 @@
+.group-item {
+  height: 93px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #e4ebf6a2;
+  border-radius: 12px;
+  opacity: 1;
+
+  .label {
+    height: 15px;
+    text-align: left;
+    font: normal normal normal 12px/15px Lato;
+    letter-spacing: 0.12px;
+    color: #8996af;
+    opacity: 1;
+    font-size: 12px;
+  }
+  .value {
+    font-size: 16px;
+    height: 19px;
+    text-align: left;
+    font: normal normal normal 16px/19px Lato;
+    letter-spacing: 0.16px;
+    color: #1c1d21;
+    opacity: 1;
+  }
+}

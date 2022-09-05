@@ -1,0 +1,36 @@
+.header-container {
+  height: 84px;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+
+  .input-container {
+    margin: 25px 25px;
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    .search-input {
+      border-radius: 5px;
+      width: 480px;
+      height: 34px;
+    }
+    .element-container {
+      display: flex;
+      align-items: center;
+      gap: 25px;
+      color: #ffffff;
+      margin-left: auto;
+      .notification-icon {
+        background-color: #162742;
+        border: none;
+      }
+      .profile-container {
+        width: 25px;
+        height: 25px;
+        border-color: #ffffff;
+        background-color: #162742;
+        border-radius: 14px;
+      }
+    }
+  }
+}
